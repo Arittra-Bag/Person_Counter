@@ -1,0 +1,1 @@
+web: streamlit run person_counter.py 
