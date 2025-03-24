@@ -4,7 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "streamlit run person_counter.py --server.address=0.0.0.0 --server.port=$PORT --server.enableCORS=false",
+    "startCommand": "streamlit run person_counter.py --server.address=0.0.0.0 --server.port=$PORT --server.enableCORS=true --server.enableXsrfProtection=false",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
